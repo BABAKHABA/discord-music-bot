@@ -18,7 +18,7 @@ module.exports = (client) => {
     customFilters: {
       "clear": "dynaudnorm=f=200",
       "lowbass": "bass=g=6,dynaudnorm=f=200",
-      "bassboost": "bass=g=20,dynaudnorm=f=200",
+      "purebass": "bass=g=20,dynaudnorm=f=200,asubboost,apulsator=hz=0.08"
       "purebass": "bass=g=20,dynaudnorm=f=200,asubboost,apulsator=hz=0.08",
       "8D": "apulsator=hz=0.08",
       "vaporwave": "aresample=48000,asetrate=48000*0.8",
